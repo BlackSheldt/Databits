@@ -1,0 +1,120 @@
+/*
+1.Posicionamiento
+2.Modelo de caja(Box model)
+3.Tipografia
+4.Visuales
+5.Otros
+*/
+
+:root{
+    /*colores*/
+    --bitcoin-orange:#F7931A;
+    --solft-orange:#FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --solft-blue:#E7F5FF;
+    --warm-black:#201E1C;
+    --black:#282623;
+    --grey:#BABABA;
+    --off-white:#FAF8F7;
+    --just-white:#FFFFFF;
+
+    /*Tipo de fuenter*/
+    --inter: 'Inter', sans-serif;
+
+    /*Tamaño de fuente*/
+    --dm-sans-size-big: 2.6rem;
+    --dm-sans-size-medium:1.4rem;
+
+    /*Interlineado*/
+    --dm-sans-line-big:26px;
+    --dm-sans-line-medium:18px;
+
+    /*Peso de fuente*/
+    --dm-sans-weight-big:700;
+    --dm-sans-weight-medium:500;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    width: 320px;
+}
+
+body{
+
+}
+
+header{
+    width: 100vw;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    padding-bottom: ;
+}
+
+#logo{
+    width: 151px;
+    height: 24px;
+    margin-top: 42px
+}
+
+header .header-div-title{
+    height: 218px;
+    width: 288px;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    ;
+    align-items: center;
+}
+
+header .header-div-title h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: var(--dm-sans-size-big);
+    font-weight: var(--dm-sans-weight-big);
+    line-height: var(--dm-sans-line-big);
+    color: var(--just-white);
+}
+
+header .header-div-title p{
+    text-align: center;
+    font-size: var(--dm-sans-size-medium);
+    font-weight: var(--dm-sans-weight-medium);
+    line-height: var(--dm-sans-line-medium);
+    color: var(--solft-orange);
+}
+
+header .header-div-title button{
+    position: relative;
+    top: 25px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--just-white);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid  var(--black);
+}
+
+header .header-div-title #meet-planes a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--dm-sans-size-medium);
+    font-weight: var(--dm-sans-weight-big);
+}
+
+header .header-div-title #meet-planes span{
+    padding-left: 10px;
+}
+
+
