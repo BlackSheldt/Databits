@@ -47,7 +47,7 @@ html{
 }
 
 body{
-
+    width: 100vw;
 }
 
 header{
@@ -58,7 +58,6 @@ header{
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-    padding-bottom: ;
 }
 
 #logo{
@@ -117,4 +116,28 @@ header .header-div-title #meet-planes span{
     padding-left: 10px;
 }
 
+main{
+    width: 100vw;
+    height: 2455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+main #bitcoin{
+    width: 100vw;
+    height: 294px;
+    background-image: url("/assets/img/Bitcoin.svg");
+    background-size: 195px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .frame-1{
+    width: 288px;
+    height: 130px;
+    background-color: #F7931A;
+}
 
