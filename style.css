@@ -17,6 +17,7 @@
     --grey:#BABABA;
     --off-white:#FAF8F7;
     --just-white:#FFFFFF;
+    --grey-text:#757575;
 
     /*Tipo de fuenter*/
     --inter: 'Inter', sans-serif;
@@ -24,14 +25,17 @@
     /*Tamaño de fuente*/
     --dm-sans-size-big: 2.6rem;
     --dm-sans-size-medium:1.4rem;
+    --dm-sans-size-small:1.4rem;
 
     /*Interlineado*/
     --dm-sans-line-big:26px;
     --dm-sans-line-medium:18px;
+    --dm-sans-line-small:18px;
 
     /*Peso de fuente*/
     --dm-sans-weight-big:700;
     --dm-sans-weight-medium:500;
+    --dm-sans-weight-small:500;
 }
 
 *{
@@ -100,9 +104,10 @@ header .header-div-title button{
     width: 229px;
     height: 48px;
     background-color: var(--just-white);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border: 1px solid  var(--black);
+    border-radius: 4px;
+    border: 1px none;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
 }
 
 header .header-div-title #meet-planes a{
@@ -116,9 +121,9 @@ header .header-div-title #meet-planes span{
     padding-left: 10px;
 }
 
-main{
+main ,.frame-2{
     width: 100vw;
-    height: 2455px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,11 +138,32 @@ main #bitcoin{
     background-size: 195px;
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: 59px;
 }
 
 main .frame-1{
     width: 288px;
     height: 130px;
-    background-color: #F7931A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+main .frame-1-title{
+    font-size: var(--dm-sans-size-big);
+    font-weight:var(--dm-sans-weight-big);
+    line-height: var(--dm-sans-line-big);
+}
+
+main .frame-1-paragraph{
+    font-size: var(--dm-sans-size-small);
+    font-weight: var(--dm-sans-weight-small);
+    line-height: var(--dm-sans-line-small);
+    color: var(--grey-text);
+}
+
+main .frame-2{
+    width: 100vw;
+    height: 778px;
 }
 
