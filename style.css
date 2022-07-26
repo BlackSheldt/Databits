@@ -18,6 +18,7 @@
     --off-white:#FAF8F7;
     --just-white:#FFFFFF;
     --grey-text:#757575;
+    --monedads-yelow:#FF9536;
 
     /*Tipo de fuenter*/
     --inter: 'Inter', sans-serif;
@@ -123,7 +124,7 @@ header .header-div-title #meet-planes span{
 
 main ,.frame-2{
     width: 100vw;
-    height: 500px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,6 +165,30 @@ main .frame-1-paragraph{
 
 main .frame-2{
     width: 100vw;
-    height: 778px;
+    height: 1200px;
 }
 
+main .frame-3-moneda{
+    align-items: center;
+    position: relative;
+    left: 19.5px;
+    top: 48px;
+    display: flex;
+    flex-direction: column;
+    height: 194px;
+    width: 235px;
+}
+
+main .frame-3-moneda > p{
+    align-self: flex-start;
+    margin-left: 12px;
+    font-size: var(--dm-sans-size-medium);
+    font-weight: var(--dm-sans-weight-medium);
+    color: var(--monedads-yelow);
+}
+
+main .frame-3-moneda ul{
+    width: 197px;
+    height: 159px;
+    list-style: none;
+}
