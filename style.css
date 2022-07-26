@@ -57,7 +57,7 @@ body{
 header{
     margin: 0 auto;
     min-width: 320px;
-    width: 90%;
+    width: 50%;
     max-width: 900px;
     height: 314px;
     display: flex;
@@ -125,7 +125,7 @@ header .header-div-title #meet-planes span{
 }
 
 main{
-    width: 90%;
+    width: 50%;
     min-width: 320px;
     max-width: 900px;
     display: flex;
@@ -176,19 +176,20 @@ main .frame-1-paragraph{
 }
 
 main .frame-3-moneda{
-    align-items: center;
     position: relative;
     left: 19.5px;
     top: 48px;
-    display: flex;
-    flex-direction: column;
     height: 194px;
     width: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
 }
 
 main .frame-3-moneda > p{
     align-self: flex-start;
-    margin-left: 12px;
+    margin-left: 18px;
     font-size: var(--dm-sans-size-medium);
     font-weight: var(--dm-sans-weight-medium);
     color: var(--monedads-yelow);
@@ -197,5 +198,43 @@ main .frame-3-moneda > p{
 main .frame-3-moneda ul{
     width: 197px;
     height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     list-style: none;
+}
+
+.frame-3-moneda ul li{
+    height: 39px;
+    padding:auto 0;
+    display: grid;
+    grid-template: 1fr / 2fr 1fr 1fr;
+    font-family: var(--inter) ;
+}
+
+.frame-3-moneda ul li .content-1{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color:#B5B0AC;
+}
+.frame-3-moneda ul li .content-2{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 17px;
+    color:#757575;
+}
+
+.frame-3-moneda ul li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-3-moneda ul li span img{
+    width: 11px;
 }
