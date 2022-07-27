@@ -141,7 +141,6 @@ main .frame-2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
 
 }
 
@@ -184,7 +183,10 @@ main .frame-3-moneda{
     width: 235px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 48px;
     align-items: center;
+    border-radius: 8px;
+    border: none 1xp black;
  
 }
 
@@ -200,8 +202,8 @@ main .frame-3-moneda > p{
 .frame-3-moneda--cost{
     display: grid;
     grid-template-columns: 6fr 1fr;
-}
 
+}
 
 main .frame-3-moneda ul{
     width: 197px;
@@ -210,6 +212,10 @@ main .frame-3-moneda ul{
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
+    border-radius: 8px;
+    border: none 1xp black;
+    overflow: hidden;
+    background-color:var(--just-white);
 
 }
 
@@ -219,7 +225,6 @@ main .frame-3-moneda ul{
     display: grid;
     grid-template: 1fr / 6fr 4fr 2fr;
     font-family: var(--inter) ;
-    background-color:var(--just-white);
 }
 
 .frame-3-moneda ul li .content-1{
@@ -262,6 +267,15 @@ main .frame-3-moneda ul{
     width: 173px;
     height: 31px;
     min-height: 31px;
+    margin-top: 16px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--solft-orange);
+    border-radius: 8px;
+}
+
+.frame-3-moneda--actualizacion p span{
+    font-weight: var(--dm-sans-weight-big);
+    font-family: var(--inter);
 }
