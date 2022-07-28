@@ -298,5 +298,65 @@ main .frame-3-moneda--arrow-left{
 }
 
 .frame-3-moneda--actualizacion-2{
-    background-color: var(--solft-blue);}
+    background-color: var(--solft-blue);
+}
 
+.frame-4{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--warm-black);
+}
+
+.frame-4 > div{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.frame-4-separation{
+    width: 38px;
+    margin-bottom: 52px;
+    position: relative;
+    bottom: 12px;
+}
+
+.frame-4-title{
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.frame-4-title h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 26px;
+    color: var(--just-white);
+}
+
+.frame-4-title p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    color: #808080;
+}
+
+.frame-4-principal{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.frame-4-principal-featurs{
+    height: 152px;
+    background-color: var(--black)
+}
