@@ -304,6 +304,7 @@ main .frame-3-moneda--arrow-left{
 .frame-4{
     width: 100%;
     height: max-content;
+    padding-bottom: 47px; ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,7 +357,44 @@ main .frame-3-moneda--arrow-left{
     justify-content: space-between;
 }
 
-.frame-4-principal-featurs{
+[class^=frame-4-principal-featurs]{
     height: 152px;
-    background-color: var(--black)
+    padding: 48px 20px 22px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--black);
+    background-repeat: no-repeat;
+    background-position: 18px 16px;
+    border-radius:4px;
+}
+
+.frame-4-principal-featurs-1{
+    background-image: url("/assets/icons/clock.svg");
+}
+
+.frame-4-principal-featurs-2{
+    background-image: url("/assets/icons/eye.svg");
+}
+
+.frame-4-principal-featurs-3{
+    background-image: url("/assets/icons/dollar-sign.svg");
+}
+
+.frame-4-principal-featurs-4{
+    background-image: url("/assets/icons/check-circle.svg");
+}
+
+[class^=frame-4-principal-featurs] h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: white;
+}
+
+[class^=frame-4-principal-featurs] p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#808080;
 }
