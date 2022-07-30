@@ -50,14 +50,10 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 
-body{
-    width: 100vw;
-}
-
 header{
     margin: 0 auto;
     min-width: 320px;
-    width: 50%;
+    width: 100%;
     max-width: 900px;
     height: 314px;
     display: flex;
@@ -125,7 +121,7 @@ header .header-div-title #meet-planes span{
 }
 
 main{
-    width: 50%;
+    width: 100%;
     min-width: 320px;
     max-width: 900px;
     height: max-content;
@@ -407,6 +403,7 @@ main .frame-3-moneda--arrow-left{
 .frame-6-cost{
     width: 100%;
     height: max-content;
+    background-color: #E5E5E5;
 }
 
 .frame-6-cost-title{
@@ -431,9 +428,75 @@ main .frame-3-moneda--arrow-left{
     width: 100%;
     margin: 0 auto;
     padding: 0 5%;
-    background-color: #E5E5E5;
+    
 }
 
 .frame-6-cost--select-title{
+    margin: 64px auto 0 auto;
     height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.frame-6-cost--select-title h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--warm-black);
+}
+
+.frame-6-cost--select-title p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--grey-text);
+}
+
+.frame-6-cost--select-article{
+    position: relative;
+    width: 190px;
+    height: 247px;
+    margin: 50px auto 64px auto;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.frame-6-cost--select-article--title{
+    position: absolute;
+    margin: 0 calc(50% - 50px);
+    display: flex;
+    width: 101px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    top:-15px;
+    color: white;
+    font-family: var(--inter);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+}
+
+.price{
+    display: grid;
+    grid-template-areas: 1fr / 49px 1fr 46px;
+    height: 175px;
+    width: 100%;
+}
+
+.price-title{
+    display: flex;
+    align-content:flex-end;
+    background-color: #1A9AF7;
+}
+
+.price h6{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-align: center;
 }
