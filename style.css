@@ -47,7 +47,6 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
-    scroll-behavior: smooth;
 }
 header{
     margin: 0 auto;
@@ -125,7 +124,6 @@ main{
 main .frame-2{
     width: 100%;
     height: max-content;
-    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,24 +157,34 @@ main .frame-1-paragraph{
     line-height: var(--dm-sans-line-small);
     color: var(--grey-text);
 }
+main .frame-3-mon{
+    display: flex;
+    width: 235px;
+    height: 360px;
+    overflow: auto;
+    gap: 20px;
+    scroll-snap-type:  x proximity;
+}
+main .frame-3-mon::-webkit-scrollbar{
+    display: none;
+}
 
 main .frame-3-moneda{
     position: relative;
     left: 19.5px;
     top: 48px;
-    height: 194px;
+    height: 283px;
     width: 235px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
     align-items: center;
     border-radius: 8px;
     border: none 1xp black;
- 
+    scroll-snap-align: center;
 }
 main [class="frame-3-moneda"] > p{
     align-self: flex-start;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-bottom: 12px;
     font-size: var(--dm-sans-size-medium);
     font-weight: var(--dm-sans-weight-medium);
@@ -184,16 +192,14 @@ main [class="frame-3-moneda"] > p{
 }
 #monedas-2{
     color: var(--secondary-blue);
-    margin-left: 25px;
+    margin-left: 35px;
 }
 [class^="frame-3-moneda--cost"]{
     display: grid;
-    grid-template-columns: 6fr 1fr;
+    grid-template-columns: 6fr 20px;
 }
 main .frame-3-moneda--cost-2{
-    position: relative;
-    right: 33px;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 20px 6fr;
 }
 main .frame-3-moneda ul{
     width: 197px;
@@ -208,12 +214,16 @@ main .frame-3-moneda ul{
     background-color:var(--just-white);
 
 }
+
 .frame-3-moneda ul li{
     height: 39px;
     padding:auto 0;
     display: grid;
     grid-template: 1fr / 6fr 4fr 2fr;
     font-family: var(--inter) ;
+}
+.frame-3-moneda ul#list-2 li{
+    grid-template: 1fr / 1fr 1fr;
 }
 .frame-3-moneda ul li .content-1{
     display: flex;
@@ -267,6 +277,7 @@ main .frame-3-moneda--arrow-left{
     line-height: 14.52px;
 }
 .frame-3-moneda--actualizacion-2{
+    margin-left: 35px;
     background-color: var(--solft-blue);
 }
 .frame-4{
@@ -412,8 +423,8 @@ main .frame-3-moneda--arrow-left{
     flex-direction: column;
     width: 190px;
     height: 247px;
-    margin: 50px auto 64px auto;
     border-radius: 8px;
+    scroll-snap-align:center;
     background-color: white;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
@@ -507,23 +518,18 @@ main .frame-3-moneda--arrow-left{
 }
 .scroll{
     display: flex;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     padding: 18px 0px;
     width: 199px;
-    overflow:auto;
-    height: 500px;
+    overflow-x:scroll;
+    overscroll-behavior-x: none;
+    height: 286px;
     gap: 18px;
+    scroll-snap-type:x proximity;
 }
-
 .scroll::-webkit-scrollbar{
-    display: none;
+ display: none;
 }
-
-.targetas{
-
-}
-
 .targetas a [class$="flecha"]{
     background-image: url("/assets/icons/right-arrow.svg");
-
 }
