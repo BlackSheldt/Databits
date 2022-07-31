@@ -44,12 +44,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
-
 header{
     margin: 0 auto;
     min-width: 320px;
@@ -62,13 +60,11 @@ header{
     justify-content: space-between;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
-
 #logo{
     width: 151px;
     height: 24px;
     margin-top: 42px
 }
-
 header .header-div-title{
     height: 218px;
     width: 90%;
@@ -79,7 +75,6 @@ header .header-div-title{
     ;
     align-items: center;
 }
-
 header .header-div-title h1{
     margin-bottom: 20px;
     text-align: center;
@@ -88,7 +83,6 @@ header .header-div-title h1{
     line-height: var(--dm-sans-line-big);
     color: var(--just-white);
 }
-
 header .header-div-title p{
     text-align: center;
     font-size: var(--dm-sans-size-medium);
@@ -96,7 +90,6 @@ header .header-div-title p{
     line-height: var(--dm-sans-line-medium);
     color: var(--solft-orange);
 }
-
 header .header-div-title button{
     position: relative;
     top: 25px;
@@ -108,18 +101,15 @@ header .header-div-title button{
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 
 }
-
 header .header-div-title #meet-planes a{
     text-decoration: none;
     color: var(--black);
     font-size: var(--dm-sans-size-medium);
     font-weight: var(--dm-sans-weight-big);
 }
-
 header .header-div-title #meet-planes span{
     padding-left: 10px;
 }
-
 main{
     width: 100%;
     min-width: 320px;
@@ -131,7 +121,6 @@ main{
     margin: 0 auto;
     background-color: var(--off-white);
 }
-
 main .frame-2{
     width: 100%;
     height: max-content;
@@ -141,7 +130,6 @@ main .frame-2{
     align-items: center;
 
 }
-
 main #bitcoin{
     width: 100%;
     height: 294px;
@@ -151,7 +139,6 @@ main #bitcoin{
     background-position: center;
     background-position-y: 59px;
 }
-
 main .frame-1{
     width: 100%;
     height: 130px;
@@ -165,14 +152,12 @@ main .frame-1-title{
     font-weight:var(--dm-sans-weight-big);
     line-height: var(--dm-sans-line-big);
 }
-
 main .frame-1-paragraph{
     font-size: var(--dm-sans-size-small);
     font-weight: var(--dm-sans-weight-small);
     line-height: var(--dm-sans-line-small);
     color: var(--grey-text);
 }
-
 main .frame-3-moneda{
     position: relative;
     left: 19.5px;
@@ -187,7 +172,6 @@ main .frame-3-moneda{
     border: none 1xp black;
  
 }
-
 main [class="frame-3-moneda"] > p{
     align-self: flex-start;
     margin-left: 30px;
@@ -196,23 +180,19 @@ main [class="frame-3-moneda"] > p{
     font-weight: var(--dm-sans-weight-medium);
     color: var(--monedads-yelow);
 }
-
 #monedas-2{
     color: var(--secondary-blue);
     margin-left: 25px;
 }
-
 [class^="frame-3-moneda--cost"]{
     display: grid;
     grid-template-columns: 6fr 1fr;
 }
-
 main .frame-3-moneda--cost-2{
     position: relative;
     right: 33px;
     grid-template-columns: 1fr 6fr;
 }
-
 main .frame-3-moneda ul{
     width: 197px;
     height: 159px;
@@ -226,7 +206,6 @@ main .frame-3-moneda ul{
     background-color:var(--just-white);
 
 }
-
 .frame-3-moneda ul li{
     height: 39px;
     padding:auto 0;
@@ -234,7 +213,6 @@ main .frame-3-moneda ul{
     grid-template: 1fr / 6fr 4fr 2fr;
     font-family: var(--inter) ;
 }
-
 .frame-3-moneda ul li .content-1{
     display: flex;
     align-items: center;
@@ -253,28 +231,22 @@ main .frame-3-moneda ul{
     line-height: 17px;
     color:#757575;
 }
-
 .frame-3-moneda ul li span{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .frame-3-moneda ul li span img{
     width: 11px;
 }
-
-
 [class^="frame-3-moneda--arrow"]{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 main .frame-3-moneda--arrow-left{
     transform:scaleX(-1);
 }
-
 [class^="frame-3-moneda--actualizacion"]{
     position: relative;
     right: 15px;
@@ -292,11 +264,9 @@ main .frame-3-moneda--arrow-left{
     font-weight: 400;
     line-height: 14.52px;
 }
-
 .frame-3-moneda--actualizacion-2{
     background-color: var(--solft-blue);
 }
-
 .frame-4{
     width: 100%;
     height: max-content;
@@ -306,7 +276,6 @@ main .frame-3-moneda--arrow-left{
     align-items: center;
     background-color: var(--warm-black);
 }
-
 .frame-4 > div{
     width: 90%;
     height: max-content;
@@ -315,14 +284,12 @@ main .frame-3-moneda--arrow-left{
     align-items: center;
 
 }
-
 .frame-4-separation{
     width: 38px;
     margin-bottom: 52px;
     position: relative;
     bottom: 12px;
 }
-
 .frame-4-title{
     height: 94px;
     display: flex;
@@ -330,21 +297,18 @@ main .frame-3-moneda--arrow-left{
     justify-content: space-between;
     text-align: center;
 }
-
 .frame-4-title h2{
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 26px;
     color: var(--just-white);
 }
-
 .frame-4-title p{
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 18px;
     color: #808080;
 }
-
 .frame-4-principal{
     width: 100%;
     margin-top: 32px;
@@ -353,7 +317,6 @@ main .frame-3-moneda--arrow-left{
     gap: 16px;
     flex-wrap:wrap;
 }
-
 [class^=frame-4-principal-featurs]{
     min-width: 288px;
     max-width: 350px;
@@ -368,44 +331,35 @@ main .frame-3-moneda--arrow-left{
     border-radius:4px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
-
 .frame-4-principal-featurs-1{
     background-image: url("/assets/icons/clock.svg");
 }
-
 .frame-4-principal-featurs-2{
     background-image: url("/assets/icons/eye.svg");
 }
-
 .frame-4-principal-featurs-3{
     background-image: url("/assets/icons/dollar-sign.svg");
 }
-
 .frame-4-principal-featurs-4{
     background-image: url("/assets/icons/check-circle.svg");
 }
-
 [class^=frame-4-principal-featurs] h3{
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.8rem;
     color: white;
 }
-
 [class^=frame-4-principal-featurs] p{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color:#808080;
 }
-
-
 .frame-6-cost{
     width: 100%;
     height: max-content;
     background-color: #E5E5E5;
 }
-
 .frame-6-cost-title{
     height: 387px;
     display: flex;
@@ -416,21 +370,18 @@ main .frame-3-moneda--arrow-left{
     background-position: center;
     padding-top: 64px;
 }
-
 .frame-6-cost-title h2{
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.6rem;
     color: var(--just-white);
 }
-
 .frame-6-cost--select{
     width: 100%;
     margin: 0 auto;
     padding: 0 5%;
     
 }
-
 .frame-6-cost--select-title{
     margin: 64px auto 0 auto;
     height: 112px;
@@ -440,21 +391,18 @@ main .frame-3-moneda--arrow-left{
     justify-content: space-between;
     text-align: center;
 }
-
 .frame-6-cost--select-title h2{
     font-size: 24px;
     font-weight: 700;
     line-height: 26px;
     color: var(--warm-black);
 }
-
 .frame-6-cost--select-title p{
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     color: var(--grey-text);
 }
-
 .frame-6-cost--select-article{
     position: relative;
     display: flex;
@@ -467,7 +415,6 @@ main .frame-3-moneda--arrow-left{
     background-color: white;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
-
 .frame-6-cost--select-article--title{
     position: absolute;
     margin: 0 calc(50% - 50px);
@@ -483,21 +430,18 @@ main .frame-3-moneda--arrow-left{
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
 }
-
 .price{
     display: grid;
     grid-template-areas: 1fr / 49px 1fr 46px;
     height: 175px;
-    width: 100%;
+    width: 190px;
 }
-
 .price-title{
     height: 49px;
     display: flex;
     justify-content: center;
     align-items:flex-end;
 }
-
 .price-title h6{
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -505,13 +449,11 @@ main .frame-3-moneda--arrow-left{
     color: #000;
     text-align: center;
 }
-
 .price-number{
     padding-top: 17px;
     display: flex;
     justify-content: center;
 }
-
 .price-number span{
     display: flex;
     align-items: flex-start;
@@ -521,7 +463,6 @@ main .frame-3-moneda--arrow-left{
     line-height: 1.452rem;
     color: #363636;
 }
-
 .price-number span bold{
     position: relative;
     bottom: 9px;
@@ -529,7 +470,6 @@ main .frame-3-moneda--arrow-left{
     font-size: 5.2rem;
     line-height: 6.293rem;
 }
-
 .price-text{
     display: flex;
     align-items: flex-start;
@@ -540,7 +480,6 @@ main .frame-3-moneda--arrow-left{
     text-align: center;
     color: var(--grey-text);
 }
-
 .price-buttom{
     width: 151px;
     height: 48px;
@@ -553,7 +492,6 @@ main .frame-3-moneda--arrow-left{
     border: 2px solid var(--bitcoin-orange);
     background-color: var(--just-white);
 }
-
 .price-buttom a{
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -561,8 +499,17 @@ main .frame-3-moneda--arrow-left{
     color: var(--warm-black);
     text-decoration: none;
 }
-
 .price-buttom img{
     width: 24px;
     height: 24px;
+}
+.scroll{
+    display: flex;
+    margin: 0 auto;
+    padding: 18px 0px;
+    width: 199px;
+    overflow: auto;
+    height: 500px;
+    gap: 18px;
+
 }
