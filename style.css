@@ -47,6 +47,7 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     margin: 0 auto;
@@ -158,6 +159,7 @@ main .frame-1-paragraph{
     line-height: var(--dm-sans-line-small);
     color: var(--grey-text);
 }
+
 main .frame-3-moneda{
     position: relative;
     left: 19.5px;
@@ -364,8 +366,8 @@ main .frame-3-moneda--arrow-left{
     height: 387px;
     display: flex;
     justify-content: center;
-    background-image: url("/assets/img/bitcoinbaby.png");
-    background-size:calc(100%) calc(100%);
+    background-image: url("/assets/img/bitcoinbaby2x.png");
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 64px;
@@ -508,8 +510,20 @@ main .frame-3-moneda--arrow-left{
     margin: 0 auto;
     padding: 18px 0px;
     width: 199px;
-    overflow: auto;
+    overflow:auto;
     height: 500px;
     gap: 18px;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.targetas{
+
+}
+
+.targetas a [class$="flecha"]{
+    background-image: url("/assets/icons/right-arrow.svg");
 
 }
