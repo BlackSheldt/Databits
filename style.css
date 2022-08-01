@@ -52,7 +52,6 @@ header{
     margin: 0 auto;
     min-width: 320px;
     width: 100%;
-    max-width: 900px;
     height: 314px;
     display: flex;
     flex-direction: column;
@@ -67,7 +66,7 @@ header{
 }
 header .header-div-title{
     height: 218px;
-    width: 90%;
+    width: 100%;
     justify-self: flex-end;
     display: flex;
     flex-direction: column;
@@ -113,7 +112,6 @@ header .header-div-title #meet-planes span{
 main{
     width: 100%;
     min-width: 320px;
-    max-width: 900px;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -159,7 +157,8 @@ main .frame-1-paragraph{
 }
 main .frame-3-mon{
     display: flex;
-    width: 235px;
+    justify-content: center;
+    width: 90%;
     height: 360px;
     overflow: auto;
     gap: 20px;
@@ -171,7 +170,6 @@ main .frame-3-mon::-webkit-scrollbar{
 
 main .frame-3-moneda{
     position: relative;
-    left: 19.5px;
     top: 48px;
     height: 283px;
     width: 235px;
@@ -179,7 +177,6 @@ main .frame-3-moneda{
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    border: none 1xp black;
     scroll-snap-align: center;
 }
 main [class="frame-3-moneda"] > p{
@@ -192,7 +189,6 @@ main [class="frame-3-moneda"] > p{
 }
 #monedas-2{
     color: var(--secondary-blue);
-    margin-left: 35px;
 }
 [class^="frame-3-moneda--cost"]{
     display: grid;
@@ -277,7 +273,6 @@ main .frame-3-moneda--arrow-left{
     line-height: 14.52px;
 }
 .frame-3-moneda--actualizacion-2{
-    margin-left: 35px;
     background-color: var(--solft-blue);
 }
 .frame-4{
@@ -324,6 +319,7 @@ main .frame-3-moneda--arrow-left{
 }
 .frame-4-principal{
     width: 100%;
+    max-width: 900px;
     margin-top: 32px;
     display: flex;
     justify-content: center;
@@ -537,21 +533,11 @@ main .frame-3-moneda--arrow-left{
 footer{
     min-width: 320px;
     width: 100%;
-    max-width: 900px;
     height: 150px;
     margin: 0 auto;
-    padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--bitcoin-orange);
-}
-footer .footer__link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
 }
 footer .footer__link ul{
     list-style: none;
@@ -563,4 +549,12 @@ footer .footer__link ul li{
 footer .footer__link ul li a{
     text-decoration:none;
     color: var(--just-white);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+footer  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
